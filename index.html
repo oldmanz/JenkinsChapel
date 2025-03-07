@@ -1,99 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Jenkins Chapel</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">
-                    <img id="whiteLogo" src="assets/img/logo_white.png" alt="..." height="50">
-                    <img id="blackLogo" class='hidden' src="assets/img/logo_black.png" alt="..." height="50">
-                  </a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#when">Events</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#sermons">Sermons</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#give">Give</a></li>
 
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                    <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Welcome</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-2"><i>And they devoted themselves to the apostles' teaching and the fellowship, to the breaking of bread and the prayers.</i></h2>
-                        <h2 class="text-white-50 mx-auto mb-5"><strong>Acts 2:42</strong></h2>
-                        <a class="btn btn-primary" href="#when">Join Us</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- About -->
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">We are a Non-Denominational Christian Church serving Champaign County</h2>
-                        <p class="text-white-50">
-                            See our <a href="statement.html" target="_blank">Statement of Faith</a> for more.
-                        </p>
-                    </div>
-                </div>
-                <img class="img-fluid" src="assets/img/inside.jpg" alt="..." />
-            </div>
-        </section>
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="when">
-            <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/service.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Sunday Service</h4>
-                            <p class="text-black-50 mb-0">Join us Sunday Mornings for Fellowship at 10am, followed by service at 10:30.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/fellowship.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-dark text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Bible Study</h4>
-                                    <p class="mb-0 text-white-50">Wednesdays at 6:30pm</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Jenkins Chapel</title>
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+	<!-- Font Awesome icons (free version)-->
+	<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+	<link
+		href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+		rel="stylesheet" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+		<div class="container px-4 px-lg-5">
+			<a class="navbar-brand" href="#page-top">
+				<img id="whiteLogo" src="assets/img/logo_white.png" alt="..." height="50">
+				<img id="blackLogo" class='hidden' src="assets/img/logo_black.png" alt="..." height="50">
+			</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				Menu
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#when">Events</a></li>
+					<li class="nav-item"><a class="nav-link" href="#sermons">Sermons</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+					<li class="nav-item"><a class="nav-link" href="#give">Give</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- Masthead-->
+	<header class="masthead">
+		<div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+			<div class="d-flex justify-content-center">
+				<div class="text-center">
+					<h1 class="mx-auto my-0 text-uppercase">Welcome</h1>
+					<h2 class="text-white-50 mx-auto mt-2 mb-2"><i>And they devoted themselves to the apostles' teaching
+							and the fellowship, to the breaking of bread and the prayers.</i></h2>
+					<h2 class="text-white-50 mx-auto mb-5"><strong>Acts 2:42</strong></h2>
+					<a class="btn btn-primary" href="#when">Join Us</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- About -->
+	<section class="about-section text-center" id="about">
+		<div class="container px-4 px-lg-5">
+			<div class="row gx-4 gx-lg-5 justify-content-center">
+				<div class="col-lg-8">
+					<h2 class="text-white mb-4">We are a Non-Denominational Christian Church serving Champaign County
+					</h2>
+					<p class="text-white-50">
+						See our <a href="statement.html" target="_blank">Statement of Faith</a> for more.
+					</p>
+				</div>
+			</div>
+			<!-- <img class="img-fluid" src="assets/img/inside.jpg" alt="..." /> -->
+		</div>
+	</section>
+	<!-- Projects-->
+	<section class="projects-section bg-light" id="when">
+		<div class="container px-4 px-lg-5">
+			<!-- Featured Project Row-->
+			<div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+				<div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/service.jpg"
+						alt="..." /></div>
+				<div class="col-xl-4 col-lg-5">
+					<div class="featured-text text-center text-lg-left">
+						<h4>Sunday Service</h4>
+						<p class="text-black-50 mb-0">Join us Sunday Mornings for Fellowship at 10am, followed by
+							service at 10:30.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+				<div class="col-xl-4 col-lg-5">
+					<div class="featured-text-left text-center text-lg-right">
+						<h4>Bible Study</h4>
+						<p class="text-black-50 mb-0">Wednesdays at 6:30pm</p>
+					</div>
+				</div>
+				<div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/fellowship.jpg"
+						alt="..." /></div>
+
+			</div>
+			<!-- <div class="row gx-0 justify-content-center">
+				<div class="col-lg-6"><img class="img-fluid" src="assets/img/fellowship.jpg" alt="..." /></div>
+				<div class="col-lg-6 order-lg-first">
+					<div class="bg-dark text-center h-100 project">
+						<div class="d-flex h-100">
+							<div class="project-text w-100 my-auto text-center text-lg-right">
+								<h4 class="text-white">Bible Study</h4>
+								<p class="mb-0 text-white-50">Wednesdays at 6:30pm</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<!-- <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6"><img class="img-fluid" src="assets/img/fellowship.jpg" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
@@ -106,88 +127,95 @@
                         </div>
                     </div>
                 </div> -->
-            </div>
-        </section>
-        <!-- Sermons-->
-        <section class="sermons-section bg-light mb-5" id="sermons">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center text-center">
-                <h2 class="text-black-50 mb-5">Sermons</h2>
-        <div style="width: 100%; max-width: 600px; max-height: 818px;" class="mb-5"><div style="position: relative; padding-bottom: calc(75% + 368px); width: 100%;"><iframe frameborder="0" scrolling="no" allowfullscreen allow="autoplay" src="https://sermons.logos.com/embed/profile/7142406/recent?includePlaylist=true&defaultSort=datePresented:desc,dateSubmitted:desc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div></div>
-        
-                </div>
-            </div>
-        </section>
-        <!-- Give-->
-        <section class="give-section bg-white" id="give">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center text-center mb-5">
-                    <!-- <div class="col-md-10 col-lg-8 mb-5 mx-auto text-center justify-content-center"> -->
-                        <h2 class="text-black-50 mb-3">Give</h2>
-                        <givebutter-widget id="gV0yJj" align=center></givebutter-widget>
-                    
-                    
-                </div>
-            </div>
+		</div>
+	</section>
+	<!-- Sermons-->
+	<section class="sermons-section bg-light mb-5" id="sermons">
+		<div class="container px-4 px-lg-5">
+			<div class="row gx-4 gx-lg-5 justify-content-center text-center">
+				<h2 class="text-black-50 mb-5">Sermons</h2>
+				<div style="width: 100%; max-width: 600px; max-height: 818px;" class="mb-5">
+					<div style="position: relative; padding-bottom: calc(75% + 368px); width: 100%;"><iframe
+							frameborder="0" scrolling="no" allowfullscreen allow="autoplay"
+							src="https://sermons.logos.com/embed/profile/7142406/recent?includePlaylist=true&defaultSort=datePresented:desc,dateSubmitted:desc"
+							style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+				</div>
 
-        </section>
-        
-        <!-- Contact-->
-        <section class="contact-section bg-black" id="contact">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">7016 Urbana Woodstock Road, Cable OH 43009</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="mailto:jenkinschapel@gmail.com">jenkinschapel@gmail.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href='tel:937-653-4277'>+1 (937) 653-4277</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/JenkinsChapelCommunityChurch"><i class="fab fa-facebook-f"></i></a>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Jenkins Chapel 2025</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+			</div>
+		</div>
+	</section>
+	<!-- Give-->
+	<section class="give-section bg-white" id="give">
+		<div class="container px-4 px-lg-5">
+			<div class="row gx-4 gx-lg-5 justify-content-center text-center mb-5">
+				<!-- <div class="col-md-10 col-lg-8 mb-5 mx-auto text-center justify-content-center"> -->
+				<h2 class="text-black-50 mb-3">Give</h2>
+				<givebutter-widget id="gV0yJj" align=center></givebutter-widget>
 
-        <!-- Give Butter-->
-        <script
-        async
-        src="https://widgets.givebutter.com/latest.umd.cjs?acct=ElzMHyHVLcTSwZcf&p=other"
-      ></script>
-    </body>
+
+			</div>
+		</div>
+
+	</section>
+
+	<!-- Contact-->
+	<section class="contact-section bg-black" id="contact">
+		<div class="container px-4 px-lg-5">
+			<div class="row gx-4 gx-lg-5">
+				<div class="col-md-4 mb-3 mb-md-0">
+					<div class="card py-4 h-100">
+						<div class="card-body text-center">
+							<i class="fas fa-map-marked-alt text-primary mb-2"></i>
+							<h4 class="text-uppercase m-0">Address</h4>
+							<hr class="my-4 mx-auto" />
+							<div class="small text-black-50">7016 Urbana Woodstock Road, Cable OH 43009</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3 mb-md-0">
+					<div class="card py-4 h-100">
+						<div class="card-body text-center">
+							<i class="fas fa-envelope text-primary mb-2"></i>
+							<h4 class="text-uppercase m-0">Email</h4>
+							<hr class="my-4 mx-auto" />
+							<div class="small text-black-50"><a
+									href="mailto:jenkinschapel@gmail.com">jenkinschapel@gmail.com</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3 mb-md-0">
+					<div class="card py-4 h-100">
+						<div class="card-body text-center">
+							<i class="fas fa-mobile-alt text-primary mb-2"></i>
+							<h4 class="text-uppercase m-0">Phone</h4>
+							<hr class="my-4 mx-auto" />
+							<div class="small text-black-50"><a href='tel:937-653-4277'>+1 (937) 653-4277</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="social d-flex justify-content-center">
+				<a class="mx-2" target="_blank" rel="noopener noreferrer"
+					href="https://www.facebook.com/JenkinsChapelCommunityChurch"><i class="fab fa-facebook-f"></i></a>
+			</div>
+		</div>
+	</section>
+	<!-- Footer-->
+	<footer class="footer bg-black small text-center text-white-50">
+		<div class="container px-4 px-lg-5">Copyright &copy; Jenkins Chapel 2025</div>
+	</footer>
+	<!-- Bootstrap core JS-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Core theme JS-->
+	<script src="js/scripts.js"></script>
+	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+	<!-- * *                               SB Forms JS                               * *-->
+	<!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+	<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+	<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+	<!-- Give Butter-->
+	<script async src="https://widgets.givebutter.com/latest.umd.cjs?acct=ElzMHyHVLcTSwZcf&p=other"></script>
+</body>
+
 </html>
